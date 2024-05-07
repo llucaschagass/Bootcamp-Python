@@ -25,3 +25,27 @@ Este repositório contém desafios de projeto destinados a aprimorar minhas habi
   **Entrada**: Dois valores inteiros positivos, representando a capacidade atual total de armazenamento em teraflops e o aumento percentual, separados por espaço.
 
   **Saída**: A nova capacidade total de armazenamento em teraflops, após o aumento percentual especificado.
+
+  ## Desafio 4: O Grande Depósito
+
+- **Descrição**: Você foi contratado por um banco para desenvolver um programa que auxilie seus clientes a realizar depósitos em suas contas. O programa deve solicitar ao cliente o valor do depósito e verificar se o valor é válido. Se o valor for maior do que zero, o programa deve adicionar o valor ao saldo da conta. Caso contrário, o programa deve exibir uma mensagem de erro. O programa deve solicitar apenas uma vez o valor de depósito.
+
+  **Entrada**: O programa deve receber o valor de depósito digitado pelo cliente. Os valor pode ser decimal, representando valor em reais.
+  
+  **Saída**: O programa deve exibir uma mensagem de sucesso quando um valor de depósito válido for informado e o saldo da conta for atualizado. Se o valor for "0", deverá imprimir uma mensagem encerrando o programa. Caso um valor inválido seja digitado, o programa deve exibir uma mensagem de erro solicitando um novo valor.
+
+  ## Desafio 5: Estrutura de Dados
+
+- **Descrição**: Após uma análise cuidadosa realizada pela equipe de desenvolvimento de uma empresa bancaria, foi identificado a necessidade de uma nova funcionalidade para otimizar os processos e melhorias da experiência dos usuários. Agora, sua tarefa é implementar uma solução que organize em ordem alfabética uma lista de ativos que será informada pelos usuários. Os ativos são representados por strings que representam seus tipos, como por exemplo: Reservas de liquidez, Ativos intangiveis e dentre outros.
+
+  **Entrada**: A primeira entrada consiste em um número inteiro que representa a  quantidade de ativos que o usuário possui. Em seguida, o usuário deverá informar, em linhas separadas, os tipos (strings) dos respectivos ativos.
+  
+  **Saída**:Seu programa deve exibir a lista de Ativos organizada em ordem alfabética. Cada ativo deve ser apresentado em uma linha separada.
+
+  ## Desafio 6: Validando a Força de Senhas
+
+- **Descrição**: Você está trabalhando para uma empresa que utiliza extensivamente os serviços da AWS, e após algumas análises a equipe de segurança identificou que algumas senhas dos usuários no IAM são fracas e podem representar um risco à segurança dos dados da empresa. Para resolver esse problema, foi solicitado que você desenvolva um programa capaz de analisar as senhas dos usuários e fornecer uma validação de força com base em critérios predefinidos.
+
+  **Entrada**: A entrada será uma única string representando a senha que precisa ser validada.
+
+  **Saída**: Seu programa deve retornar uma mensagem indicando se a senha fornecida pelo usuário atende aos requisitos de segurança ou não, juntamente com um feedback explicativo sobre os critérios considerados.
