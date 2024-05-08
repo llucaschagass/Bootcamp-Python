@@ -49,3 +49,29 @@ Este repositório contém desafios de projeto destinados a aprimorar minhas habi
   **Entrada**: A entrada será uma única string representando a senha que precisa ser validada.
 
   **Saída**: Seu programa deve retornar uma mensagem indicando se a senha fornecida pelo usuário atende aos requisitos de segurança ou não, juntamente com um feedback explicativo sobre os critérios considerados.
+
+  ## Desafio 7: Robô inteligente
+
+- **Descrição**: Você foi contratado pela empresa DIO Robots para programar um robô capaz de classificar números em uma das seguintes categorias: negativo, positivo ou zero. Para isso, você deve criar uma função de classificação que receba um número como parâmetro e retorne a mensagem "negativo!" ou " positivo!", de acordo com sua categoria.
+
+O programa deve ser executado continuamente, permitindo que o usuário insira vários números. Quando ele quiser encerrar a execução, deverá digitar um número igual a zero. A cada novo número inserido, o robô deve classificá-lo e exibir a mensagem correspondente. Ao final da execução, o programa deverá exibir a quantidade de números positivos, negativos e zeros que foram inseridos.
+
+  **Entrada**: A entrada deve receber valores inteiros.
+
+  **Saída**: O código deverá retornar uma mensagem (string) informando se o número é positivo ou não. Ao receber o valor 0, ele deverá encerrar o e informar quantos números foram positivos e negativos.
+
+    ## Desafio 8: Classificação Frutífera
+
+- **Descrição**: Nesta missão, sua tarefa é mais desafiadora do que nunca! Em um pomar mágico, as frutas têm características únicas que as diferenciam. Seu objetivo é criar um modelo de machine learning capaz de classificar frutas com base em três características: peso, textura (suave ou áspera) e cor (vermelha, laranja ou amarela). Cada tipo de fruta tem limites específicos para essas características.
+
+  **Entrada**: Seu código deve receber as seguintes entradas do usuário: Peso da fruta, Textura da fruta e Cor da fruta
+
+  **Saída**: O código deve produzir uma saída indicando a classificação da fruta com base nas características fornecidas.
+
+    ## Desafio 9: Afinidade Elemental
+  
+- **Descrição**: No reino mágico onde cada feiticeiro possui uma afinidade elemental única, seu desafio é criar um modelo de machine learning para prever essa afinidade. Os feiticeiros podem pertencer a um dos quatro elementos mágicos: Fogo, Água, Terra ou Ar. A predição será baseada em cinco atributos mágicos: intensidade do feitiço, presença de componente raro, fase lunar, idade do feiticeiro e afinidade com animais mágicos.
+
+  **Entrada**: Seu código deve receber as seguintes entradas do usuário: Intensidade do feitiço, Componente raro, Fase lunar, Idade do feiticeiro e Afinidade com animais mágicos.
+
+  **Saída**: O código deve produzir uma saída indicando a afinidade elemental prevista do feiticeiro com base nos atributos fornecidos.
