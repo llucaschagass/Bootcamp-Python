@@ -60,7 +60,7 @@ O programa deve ser executado continuamente, permitindo que o usuário insira v�
 
   **Saída**: O código deverá retornar uma mensagem (string) informando se o número é positivo ou não. Ao receber o valor 0, ele deverá encerrar o e informar quantos números foram positivos e negativos.
 
-    ## Desafio 8: Classificação Frutífera
+   ## Desafio 8: Classificação Frutífera
 
 - **Descrição**: Nesta missão, sua tarefa é mais desafiadora do que nunca! Em um pomar mágico, as frutas têm características únicas que as diferenciam. Seu objetivo é criar um modelo de machine learning capaz de classificar frutas com base em três características: peso, textura (suave ou áspera) e cor (vermelha, laranja ou amarela). Cada tipo de fruta tem limites específicos para essas características.
 
